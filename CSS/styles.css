@@ -11,7 +11,7 @@ html{
 
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@1,300&family=DynaPuff&family=Edu+QLD+Beginner:wght@600&family=Work+Sans&display=swap');
 
-body{
+*{
     font-family: 'DynaPuff', cursive;
 }
 
