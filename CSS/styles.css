@@ -336,6 +336,7 @@ body{
 
 
 
+
 #about-me{
     position: relative;
     display: flex;
@@ -385,7 +386,7 @@ hr {
     border: 2px solid var(--contrast-color);
     box-shadow: 1px 3px 7px var(--contrast-color);
 }
-
+/* PROYECTOS */
 #proyectos {
     background: var(--contrast-color-white);
     
@@ -452,6 +453,20 @@ hr {
     display: flex;
     margin-left: auto;
     margin-right: auto;
+}
+
+@media (max-width: 410px){
+    .proyectos-container{
+        width: 99%;
+    }
+
+        .card-proyect{
+            width: 98%;
+        }
+
+        .proyectos-container {
+            height: 1430px;
+        }
 }
 
 
