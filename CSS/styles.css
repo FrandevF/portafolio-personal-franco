@@ -96,7 +96,7 @@ html{
 }
 
 
-@media (max-width: 700px){
+@media (max-width: 800px){
     .nav__label{
         display: block;
         cursor: pointer;
@@ -136,6 +136,8 @@ html{
             top: 300px;
             font-size: 4rem;
             font-weight: bold;
+            text-align: center;
+            left: 20px;
             text-transform: uppercase;
          
             text-shadow: 0.05em 0 0 #00fffc, -0.03em -0.04em 0 #fc00ff,
@@ -216,7 +218,7 @@ html{
     background-position: center;
     
 }
-@media (min-width: 700px){
+@media (min-width: 800px){
 .container {
             text-align: center;
         }
@@ -224,10 +226,10 @@ html{
         .glitch {
             position: absolute;
             top: 300px;
-            font-size: 4rem;
+            font-size: 8vw;
             font-weight: bold;
             text-transform: uppercase;
-            left: 300px;
+            left: 5%;
             text-shadow: 0.05em 0 0 #00fffc, -0.03em -0.04em 0 #fc00ff,
                 0.025em 0.04em 0 #fffc00;
             animation: glitch 725ms infinite;
@@ -291,3 +293,16 @@ html{
         }
     
     }
+
+@media (min-width: 700px) and (max-width: 1100px) {
+    .nav__item{
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 450px) {
+    .glitch{
+        font-size: 3em;
+        top: 200px;
+    }
+}
